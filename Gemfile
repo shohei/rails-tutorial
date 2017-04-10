@@ -5,7 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'faker'
 gem 'bcrypt'
 gem 'rails-controller-testing'
 gem 'bootstrap-sass'
