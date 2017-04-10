@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'bcrypt'
 gem 'rails-controller-testing'
 gem 'bootstrap-sass'
 gem 'guard-minitest'
