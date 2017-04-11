@@ -5,12 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'will_paginate'
+gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-will_paginate'
 gem 'faker'
 gem 'bcrypt'
 gem 'rails-controller-testing'
 gem 'bootstrap-sass'
+gem 'guard'
 gem 'guard-minitest'
 gem 'minitest-reporters'
 gem 'rails', '~> 5.0.2'
@@ -18,7 +19,6 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
